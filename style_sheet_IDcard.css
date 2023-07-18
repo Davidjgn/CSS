@@ -1,0 +1,74 @@
+#div-background{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    border-collapse: collapse;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2px black solid;
+    height: 400px;
+    width: 300px;
+}
+#name{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 10px 0;
+}
+#p-college{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0;
+}
+#p-links{
+    margin: 10px 0px;
+    padding-top: 10px;
+}
+.bi-facebook{
+    color: rgb(41, 72, 172);
+}
+.bi-instagram{
+    color: rgb(80, 12, 63);
+}
+.bi-linkedin{
+    color: rgb(45, 49, 255);
+}
+.bi-twitter{
+    color: rgb(49, 182, 235);
+}
+#p-links{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.contact{
+    margin: 9px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.div-contact{
+    margin: 0;
+    border-top: solid black 2px;
+    background-color: rgb(255, 232, 127);
+    color: rgb(41, 172, 41);
+    height: 40px;
+    font-size: 13px;
+}
+.div-contact:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+    text-decoration: underline;
+}

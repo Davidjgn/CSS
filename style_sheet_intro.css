@@ -1,0 +1,28 @@
+p{
+    background-color: blue;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* use # to style specific id */
+#p1{
+    background-color: green;
+}
+#p2{
+    background-color: red;
+}
+#p3{
+    background-color: yellow;
+}
+/*font awesome class ignore first fa*/
+.fa-twitter{
+    color:rgb(0, 206, 206);
+}
+.fa-medkit{
+    color:red;
+}
+.glyphicon-cloud{
+    font-size: 100px;
+    color: indigo;
+}
+
