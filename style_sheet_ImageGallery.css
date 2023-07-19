@@ -1,0 +1,51 @@
+.content{
+    margin: auto;
+    max-width: 900px;
+    height: 650px;
+    background-color: rgb(113, 168, 216);
+    border-radius: 20px;
+}
+#title{
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 250px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+#gallery{
+    margin: auto;
+    max-width: 760px;
+
+}
+.image{
+    float: left;
+    margin: 20px;
+    border-radius: 14px;
+    height: 230px;
+    width: 200px;
+    border: 5px solid rgb(216, 216, 216);
+}
+.description{
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    padding: 10px 0;
+    font-size: 20px;
+    bottom: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+}
+.image:hover{
+    border-color: rgb(255, 255, 70);
+    transform: scale(1.1);
+}
