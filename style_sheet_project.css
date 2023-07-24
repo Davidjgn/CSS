@@ -1,0 +1,122 @@
+.content{
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar {
+  background-color: #f3f3f3;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul a {
+  display: inline-block;
+  padding: 10px 20px;
+}
+ul a:hover {
+  background-color: #008CBA;
+}
+#intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img{
+    position: relative;
+    bottom: 90px;
+    height: 400px;
+}
+#image-container{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+}
+.image_example1{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+  border: 1px black solid;
+  float: left;
+  margin-left: 13%;
+}
+.image_example1 img{
+  height: 400px;
+  position: relative;
+  right: 100px;
+}
+.image_example2{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+  border: 1px black solid;
+}
+.image_example2 img{
+  height: 400px;
+  position: relative;
+  right: 105px;
+}
+.example_a{
+  width: auto;
+  margin: auto;
+  justify-content: center;
+}
+.footer{
+  width: 100%;
+}
+.footer a{
+    font-size: 150%;
+}
+.footer h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactInfo {
+  margin: 0 10px;
+}
+
+iframe{
+    float: left;
+    margin-right: 10px;
+}
+.explanation {
+  height: 200px;
+}
+
+@keyframes rotate2{
+  0%{
+      transform: rotate(0deg);
+      border-left: 20px solid black;
+  }
+  50%{
+      border-left: 2px solid black;
+  }
+  100%{
+      transform: rotate(360deg);
+      border-left: 20px solid black;
+  }
+}
+.rotate2{
+  height: 80px;
+  width: 80px;
+  margin: 20px auto;
+  border-radius: 50%;
+  animation-name: rotate2;
+  animation: rotate2 2s cubic-bezier(.80, .30, .30, .80) infinite;
+}
+
+
