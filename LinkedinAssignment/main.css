@@ -1,0 +1,64 @@
+.container-fluid{
+    background-color: rgb(34, 103, 182);
+    height: 100vh;
+}
+#cont{
+    width: 60%;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    top: 10%;
+    height: 500px;
+}
+#cont a{
+    position: relative;
+    top: 10px;
+    z-index: 1;
+}
+#image{
+    overflow: hidden;
+}
+#image img{
+    position: relative;
+    right: 15%;
+    height: 450px;
+}
+#form label{
+    margin-top: 30%;
+    margin-bottom: 30px;
+    color: rgb(34, 103, 182);
+    font-size: 25px;
+}
+#form .box{
+    margin: 5px 0;
+    width: 70%;
+    background-color: rgb(212, 232, 255);
+    border: solid 1px rgb(184, 184, 184);
+    border-radius: 5px;
+}
+#form .button{
+    width: 100px;
+    height: 40px;
+    border: solid 1px rgb(34, 103, 182);
+    margin-right: 10px;
+}
+#login{
+    background-color: rgb(34, 103, 182);
+    color: white;
+}
+#signup{
+    background-color: white;
+    color: rgb(34, 103, 182);
+}
+#form .button:hover{
+    border: 3px solid rgb(111, 178, 255);
+}
+#form a{
+    text-decoration: none;
+}
+.footerlinks{
+    font-size: 10px;
+}
+#footer{
+    margin-top: 40px;
+}
